@@ -1,4 +1,4 @@
-token: "xxxxxxxxxxxxxxxxx"         # Lichess OAuth2 Token.
+token: "lip_MM1qJJoJTzQUD6e2TsMW"         # Lichess OAuth2 Token.
 
 engine:                                   # Engine settings.
   dir: "./engines"               # Directory containing the engine.
@@ -49,7 +49,7 @@ engine:                                   # Engine settings.
     Slow Mover: 40
     
     
-move_overhead_multiplier: 3.0             # Increase if your bot flags games too often. Default move overhead is 1 second per 1 minute initital time.
+move_overhead_multiplier: 2.3             # Increase if your bot flags games too often. Default move overhead is 1 second per 1 minute initital time.
 
 challenge:                                # Incoming challenges. (Commenting allowed)
   concurrency: 1                          # Number of games to play simultaneously.
@@ -61,13 +61,13 @@ challenge:                                # Incoming challenges. (Commenting all
     - standard
     - chess960
 #   - fromPosition
-#   - antichess
-#   - atomic
-#   - crazyhouse
-#   - horde
-#   - kingOfTheHill
-#   - racingKings
-#   - threeCheck
+    - antichess
+    - atomic
+    - crazyhouse
+    - horde
+    - kingOfTheHill
+    - racingKings
+    - threeCheck
   time_controls:                          # Time controls to accept.
     - bullet
     - blitz
